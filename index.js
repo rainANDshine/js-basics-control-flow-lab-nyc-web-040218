@@ -1,4 +1,4 @@
-let scuberGreetingForFeet = function (ride) {
+function scuberGreetingForFeet(ride) {
   let charge;
   if (ride <= 400) {
     charge = 'This one is on me!';
