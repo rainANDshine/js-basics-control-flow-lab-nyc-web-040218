@@ -10,21 +10,3 @@ function scuberGreetingForFeet(ride) {
   return charge;
 }
 
-function ternaryCheckCity(city) {
-  return city === 'NYC' ? 'Ok, sounds good.' : 'No go.';
-}
-
-function switchOnCharmFromTip(tip) {
-  let charm;
-  switch (tip) {
-    case 'generous':
-      charm = 'Thank you so much.';
-      break;
-    case 'not as generous':
-      charm = 'Thank you.';
-      break;
-    default:
-      charm = 'Bye.';
-  }
-  return charm;
-}
