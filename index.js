@@ -1,7 +1,6 @@
-// Write your code in this file!
 function scuberGreetingForFeet(ride) {
   let charge;
-  if (ride <== 400) {
+  if (ride <= 400) {
     charge = 'This one is on me!';
   } else if (ride > 2500) {
       charge = 'No can do.';
@@ -16,14 +15,16 @@ function ternaryCheckCity(city) {
 }
 
 function switchOnCharmFromTip(tip) {
+  let charm;
   switch (tip) {
     case 'generous':
-      return 'Thank you so much.';
+      charm = 'Thank you so much.';
       break;
     case 'not as generous':
-      return 'Thank you.';
+      charm = 'Thank you.';
       break;
     default:
-      return 'Bye.';
+      charm = 'Bye.';
   }
+  return charm;
 }
